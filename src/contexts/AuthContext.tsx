@@ -3,9 +3,9 @@ import React, { createContext, useContext, useState, useEffect, ReactNode } from
 
 // Define a User interface representing the user object structure
 interface User {
-  id: ...;
-  name: ..;
-  email: ..;
+  id: String;
+  name: String;
+  email: String;
 }
 
 // Define the shape of the AuthContext
